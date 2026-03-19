@@ -49,8 +49,8 @@ class _QuizState extends State<Quiz> {
           decoration: BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                Color.fromARGB(255, 78, 13, 151),
-                Color.fromARGB(255, 107, 15, 168),
+                Color.fromARGB(255, 62, 36, 81), // Deep purple
+                Color.fromARGB(255, 94, 75, 139), // Medium purple
               ],
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
@@ -59,13 +59,13 @@ class _QuizState extends State<Quiz> {
           child: activeScreen == 'start-screen'
               ? StartScreen(switchScreen)
               : activeScreen == 'results-screen'
-                  ? ResultsScreen(
-                      choosenAnswers: selectedAnswers,
-                      onRestart: restartQuiz,
-                    )
-                  : QuestionScreen(
-                      onSelectAnswer: chooseAnswer,
-                    ),
+              ? ResultsScreen(
+                  choosenAnswers: selectedAnswers,
+                  onRestart: restartQuiz,
+                )
+              : QuestionScreen(
+                  onSelectAnswer: chooseAnswer,
+                ),
         ),
       ),
     );
