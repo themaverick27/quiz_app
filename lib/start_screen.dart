@@ -32,7 +32,7 @@ class StartScreen extends StatelessWidget {
           ),
           OutlinedButton.icon(
             icon: Icon(Icons.arrow_forward),
-            style: OutlinedButton.styleFrom(
+            style: OutlinedButton.styleFrom(  
               foregroundColor: Colors.white,
               backgroundColor: Colors.deepPurple,
               shape: RoundedRectangleBorder(
