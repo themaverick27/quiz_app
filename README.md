@@ -2,6 +2,8 @@
 
 A simple and interactive Quiz App built using Flutter. This app helps users test their Flutter knowledge in a fun and engaging way.
 
+---
+
 ## App Flow
 
 1. User opens the app
@@ -85,10 +87,9 @@ lib/
 - Add timer for each question ⏱️
 - Fetch questions from an API 🌐
 - Add categories/difficulty levels 🎮
-
 ---
 
 ## Contributing
-
 Feel free to fork this repo and improve the app. Contributions are welcome!
+
 ---
